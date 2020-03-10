@@ -1,19 +1,14 @@
 <jsp:include page="util/topo.jsp"></jsp:include>
+
 <html><head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript" src="lib/js/jquery.min.js"></script>
-    <script type="text/javascript" src="lib/js/bootstrap.min.js"></script>
-    <link href="lib/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="lib/css/bootstrap.css" rel="stylesheet" type="text/css">
-     <link href="lib/css/padrao.css" rel="stylesheet" type="text/css">
+    
   
   </head><body>
     <div class="section section-danger text-justify">
       <div class="container">
         <div class="row text-center">
           <div class="col-md-12 text-center">
-            <h1 class="text-center">Sistema de Gerenciamento de Cursos</h1>
+            <h1 class="text-center">Sistema de Cadastro de Usuario</h1>
           </div>
         </div>
       </div>
@@ -23,9 +18,10 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <div class="col-md-12  btn-group btn-group-lg btn-group-vertical">
-              <a href="clientes/index.html" class="btn btn-default">CLIENTES</a>
-              <a href="cursos/index.html" class="btn btn-default">CURSOS</a>
-              <a href="pagamentos/index.html" class="btn btn-default">PAGAMENTOS</a>
+              <a href="http://localhost:8080/web/faces/cadastro.jsp" class="btn btn-default">Cadastrar Usuário</a>
+              <a href="http://localhost:8080/web/faces/Alteracao.jsp" class="btn btn-default">Alterar Usuários</a>
+              <a href="http://localhost:8080/web/faces/listagem.jsp" class="btn btn-default">Listar todos os Usuários</a>
+               <a href="http://localhost:8080/web/faces/exclusao.jsp" class="btn btn-default">Excluir Usuários</a>
             </div>
           </div>
         </div>
@@ -35,7 +31,7 @@
       <div class="navbar navbar-fixed-bottom bgred">
         <div class="container">
           <div class="row">
-            <div class="col-sm-12 text-center" style="top:13px;color:#fff;">Â© ABCTreinamentos - Curso de Java 8 para Web</div>
+            <div class="col-sm-12 text-center" style="top:13px;color:#fff;">Ivia - Desafio SEFAZ</div>
           </div>
         </div>
       </div>
